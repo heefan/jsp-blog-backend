@@ -1,0 +1,21 @@
+version: '3.0'
+services:
+  blog-mysql:
+    platform: linux/x86_64
+    container_name: mysql5_7
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: blogdb
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./db_data:/var/lib/mysql"
+  blog-adminer:
+    platform: linux/x86_64
+    container_name: adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8090:8080

@@ -334,3 +334,113 @@
 2022-05-21 16:52:11,302 INFO 18239 [egg-watcher] Start watching: "/Users/litian/blog/services/app.js"
 2022-05-21 16:52:11,302 INFO 18239 [egg-watcher:agent] watcher start success
 2022-05-21 16:52:11,306 INFO 18239 [egg:core] dump config after ready, 1ms
+2022-05-21 17:10:18,348 INFO 21022 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:10:18,351 INFO 21022 [egg:core] dump config after load, 2ms
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:10:18,364 INFO 21022 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:10:18,365 INFO 21022 [egg-watcher:agent] watcher start success
+2022-05-21 17:10:18,369 INFO 21022 [egg:core] dump config after ready, 2ms
+2022-05-21 17:13:41,434 INFO 21248 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:13:41,437 INFO 21248 [egg:core] dump config after load, 2ms
+2022-05-21 17:13:41,449 INFO 21248 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:13:41,449 INFO 21248 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:13:41,449 INFO 21248 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:13:41,450 INFO 21248 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:13:41,450 INFO 21248 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:13:41,450 INFO 21248 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:13:41,450 INFO 21248 [egg-watcher:agent] watcher start success
+2022-05-21 17:13:41,454 INFO 21248 [egg:core] dump config after ready, 2ms
+2022-05-21 17:17:21,579 INFO 21521 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:17:21,582 INFO 21521 [egg:core] dump config after load, 2ms
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:17:21,594 INFO 21521 [egg-watcher:agent] watcher start success
+2022-05-21 17:17:21,599 INFO 21521 [egg:core] dump config after ready, 2ms
+2022-05-21 17:17:57,405 INFO 21796 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:17:57,409 INFO 21796 [egg:core] dump config after load, 2ms
+2022-05-21 17:17:57,420 INFO 21796 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:17:57,421 INFO 21796 [egg-watcher:agent] watcher start success
+2022-05-21 17:17:57,425 INFO 21796 [egg:core] dump config after ready, 2ms
+2022-05-21 17:18:21,266 INFO 22023 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:18:21,269 INFO 22023 [egg:core] dump config after load, 2ms
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:18:21,281 INFO 22023 [egg-watcher:agent] watcher start success
+2022-05-21 17:18:21,286 INFO 22023 [egg:core] dump config after ready, 2ms
+2022-05-21 17:21:48,774 INFO 22312 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:21:48,777 INFO 22312 [egg:core] dump config after load, 2ms
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:21:48,790 INFO 22312 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:21:48,791 INFO 22312 [egg-watcher:agent] watcher start success
+2022-05-21 17:21:48,795 INFO 22312 [egg:core] dump config after ready, 2ms
+2022-05-21 17:24:15,002 INFO 22450 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:24:15,006 INFO 22450 [egg:core] dump config after load, 2ms
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:24:15,019 INFO 22450 [egg-watcher:agent] watcher start success
+2022-05-21 17:24:15,023 INFO 22450 [egg:core] dump config after ready, 1ms
+2022-05-21 17:28:44,719 INFO 22941 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:28:44,722 INFO 22941 [egg:core] dump config after load, 2ms
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:28:44,735 INFO 22941 [egg-watcher:agent] watcher start success
+2022-05-21 17:28:44,740 INFO 22941 [egg:core] dump config after ready, 2ms
+2022-05-21 17:30:00,590 INFO 23515 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:30:00,593 INFO 23515 [egg:core] dump config after load, 2ms
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:30:00,605 INFO 23515 [egg-watcher:agent] watcher start success
+2022-05-21 17:30:00,610 INFO 23515 [egg:core] dump config after ready, 2ms
+2022-05-21 17:38:08,546 INFO 25469 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 17:38:08,550 INFO 25469 [egg:core] dump config after load, 2ms
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 17:38:08,563 INFO 25469 [egg-watcher:agent] watcher start success
+2022-05-21 17:38:08,567 INFO 25469 [egg:core] dump config after ready, 1ms
+2022-05-21 21:22:22,676 INFO 21053 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/backend/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-21 21:22:22,680 INFO 21053 [egg:core] dump config after load, 2ms
+2022-05-21 21:22:22,697 INFO 21053 [egg-watcher] Start watching: ["/Users/litian/blog/backend/app","/Users/litian/blog/backend/config","/Users/litian/blog/backend/mocks","/Users/litian/blog/backend/mocks_proxy","/Users/litian/blog/backend/app.js"]
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher] Start watching: "/Users/litian/blog/backend/app"
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher] Start watching: "/Users/litian/blog/backend/config"
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks"
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher] Start watching: "/Users/litian/blog/backend/mocks_proxy"
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher] Start watching: "/Users/litian/blog/backend/app.js"
+2022-05-21 21:22:22,698 INFO 21053 [egg-watcher:agent] watcher start success
+2022-05-21 21:22:22,703 INFO 21053 [egg:core] dump config after ready, 2ms

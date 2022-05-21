@@ -24,22 +24,14 @@ module.exports = appInfo => {
   };
 
   config.mysql = {
-    // database configuration
     client: {
-      // host
       host: 'localhost',
-      // port
       port: '3306',
-      // username
       user: 'root',
-      // password
-      password: '',
-      // database
-      database: 'BlogDB',
+      password: 'password',
+      database: 'blogdb',
     },
-    // load into app, default is open
     app: true,
-    // load into agent, default is close
     agent: false,
   };
 

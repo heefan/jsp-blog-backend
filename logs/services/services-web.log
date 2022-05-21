@@ -531,3 +531,243 @@ name: "ECONNREFUSEDError"
 pid: 18240
 hostname: litian-mbp
 
+2022-05-21 17:10:18,708 ERROR 21023 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21023
+hostname: litian-mbp
+
+2022-05-21 17:13:41,799 ERROR 21252 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21252
+hostname: litian-mbp
+
+2022-05-21 17:17:21,939 ERROR 21522 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21522
+hostname: litian-mbp
+
+2022-05-21 17:17:57,763 ERROR 21797 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21797
+hostname: litian-mbp
+
+2022-05-21 17:18:21,652 ERROR 22026 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 22026
+hostname: litian-mbp
+
+2022-05-21 17:21:49,143 ERROR 22314 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 22314
+hostname: litian-mbp
+
+2022-05-21 17:24:15,365 ERROR 22451 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 22451
+hostname: litian-mbp
+
+2022-05-21 17:28:45,085 ERROR 22942 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 22942
+hostname: litian-mbp
+
+2022-05-21 17:30:00,952 ERROR 23516 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 23516
+hostname: litian-mbp
+
+2022-05-21 17:38:08,906 ERROR 25470 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+    --------------------
+    at Protocol._enqueue (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/litian/blog/backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/litian/blog/backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/litian/blog/backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/litian/blog/backend/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/litian/blog/backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/litian/blog/backend/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "::1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 25470
+hostname: litian-mbp
+
