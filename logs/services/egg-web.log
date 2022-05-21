@@ -1,0 +1,490 @@
+2022-05-17 22:39:19,698 INFO 42500 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-17 22:39:19,707 INFO 42500 [egg-multipart] stream mode enable
+2022-05-17 22:39:19,707 INFO 42500 [egg-mysql] connecting root@localhost:3306/blog
+2022-05-17 22:39:19,745 INFO 42500 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use methodnoallow middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use noopen middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use nosniff middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use xssProtection middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use xframe middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] use dta middleware
+2022-05-17 22:39:19,746 INFO 42500 [egg-security] compose 6 middlewares into one security middleware
+2022-05-17 22:39:19,751 INFO 42500 [egg:core] dump config after load, 2ms
+2022-05-17 22:39:19,758 INFO 42500 [egg-watcher:application] watcher start success
+2022-05-17 22:39:19,762 INFO 42500 [egg:core] dump config after ready, 2ms
+2022-05-17 22:40:06,787 INFO 42613 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-17 22:40:06,796 INFO 42613 [egg-multipart] stream mode enable
+2022-05-17 22:40:06,796 INFO 42613 [egg-mysql] connecting root@localhost:3306/blog
+2022-05-17 22:40:06,831 INFO 42613 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-17 22:40:06,832 INFO 42613 [egg-security] use methodnoallow middleware
+2022-05-17 22:40:06,832 INFO 42613 [egg-security] use noopen middleware
+2022-05-17 22:40:06,832 INFO 42613 [egg-security] use nosniff middleware
+2022-05-17 22:40:06,832 INFO 42613 [egg-security] use xssProtection middleware
+2022-05-17 22:40:06,832 INFO 42613 [egg-security] use xframe middleware
+2022-05-17 22:40:06,833 INFO 42613 [egg-security] use dta middleware
+2022-05-17 22:40:06,833 INFO 42613 [egg-security] compose 6 middlewares into one security middleware
+2022-05-17 22:40:06,837 INFO 42613 [egg:core] dump config after load, 2ms
+2022-05-17 22:40:06,844 INFO 42613 [egg-watcher:application] watcher start success
+2022-05-17 22:40:06,848 INFO 42613 [egg:core] dump config after ready, 2ms
+2022-05-17 22:41:38,635 INFO 43106 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-17 22:41:38,644 INFO 43106 [egg-multipart] stream mode enable
+2022-05-17 22:41:38,644 INFO 43106 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-17 22:41:38,679 INFO 43106 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-17 22:41:38,680 INFO 43106 [egg-security] use methodnoallow middleware
+2022-05-17 22:41:38,680 INFO 43106 [egg-security] use noopen middleware
+2022-05-17 22:41:38,680 INFO 43106 [egg-security] use nosniff middleware
+2022-05-17 22:41:38,680 INFO 43106 [egg-security] use xssProtection middleware
+2022-05-17 22:41:38,681 INFO 43106 [egg-security] use xframe middleware
+2022-05-17 22:41:38,681 INFO 43106 [egg-security] use dta middleware
+2022-05-17 22:41:38,681 INFO 43106 [egg-security] compose 6 middlewares into one security middleware
+2022-05-17 22:41:38,685 INFO 43106 [egg:core] dump config after load, 2ms
+2022-05-17 22:41:38,692 INFO 43106 [egg-watcher:application] watcher start success
+2022-05-17 22:41:38,695 INFO 43106 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 17 2022 22:41:38 GMT+0800 (Singapore Standard Time)
+2022-05-17 22:41:38,697 INFO 43106 [egg:core] dump config after ready, 2ms
+2022-05-17 23:07:55,706 INFO 43923 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-17 23:07:55,717 INFO 43923 [egg-multipart] stream mode enable
+2022-05-17 23:07:55,717 INFO 43923 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-17 23:07:55,773 INFO 43923 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-17 23:07:55,774 INFO 43923 [egg-security] use methodnoallow middleware
+2022-05-17 23:07:55,774 INFO 43923 [egg-security] use noopen middleware
+2022-05-17 23:07:55,774 INFO 43923 [egg-security] use nosniff middleware
+2022-05-17 23:07:55,774 INFO 43923 [egg-security] use xssProtection middleware
+2022-05-17 23:07:55,775 INFO 43923 [egg-security] use xframe middleware
+2022-05-17 23:07:55,775 INFO 43923 [egg-security] use dta middleware
+2022-05-17 23:07:55,775 INFO 43923 [egg-security] compose 6 middlewares into one security middleware
+2022-05-17 23:07:55,780 INFO 43923 [egg:core] dump config after load, 3ms
+2022-05-17 23:07:55,789 INFO 43923 [egg:core] dump config after ready, 2ms
+2022-05-17 23:07:55,790 INFO 43923 [egg-watcher:application] watcher start success
+2022-05-17 23:10:36,778 INFO 44018 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-17 23:10:36,789 INFO 44018 [egg-multipart] stream mode enable
+2022-05-17 23:10:36,789 INFO 44018 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-17 23:10:36,826 INFO 44018 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use methodnoallow middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use noopen middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use nosniff middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use xssProtection middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use xframe middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] use dta middleware
+2022-05-17 23:10:36,827 INFO 44018 [egg-security] compose 6 middlewares into one security middleware
+2022-05-17 23:10:36,831 INFO 44018 [egg:core] dump config after load, 2ms
+2022-05-17 23:10:36,841 INFO 44018 [egg:core] dump config after ready, 2ms
+2022-05-17 23:10:36,842 INFO 44018 [egg-watcher:application] watcher start success
+2022-05-21 11:38:07,421 INFO 10623 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 11:38:07,430 INFO 10623 [egg-multipart] stream mode enable
+2022-05-21 11:38:07,430 INFO 10623 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 11:38:07,466 INFO 10623 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 11:38:07,467 INFO 10623 [egg-security] use methodnoallow middleware
+2022-05-21 11:38:07,467 INFO 10623 [egg-security] use noopen middleware
+2022-05-21 11:38:07,467 INFO 10623 [egg-security] use nosniff middleware
+2022-05-21 11:38:07,467 INFO 10623 [egg-security] use xssProtection middleware
+2022-05-21 11:38:07,467 INFO 10623 [egg-security] use xframe middleware
+2022-05-21 11:38:07,468 INFO 10623 [egg-security] use dta middleware
+2022-05-21 11:38:07,468 INFO 10623 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 11:38:07,472 INFO 10623 [egg:core] dump config after load, 2ms
+2022-05-21 11:38:07,482 INFO 10623 [egg:core] dump config after ready, 2ms
+2022-05-21 11:38:07,483 INFO 10623 [egg-watcher:application] watcher start success
+2022-05-21 11:38:37,220 INFO 10691 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 11:38:37,228 INFO 10691 [egg-multipart] stream mode enable
+2022-05-21 11:38:37,229 INFO 10691 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 11:38:37,263 INFO 10691 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 11:38:37,263 INFO 10691 [egg-security] use methodnoallow middleware
+2022-05-21 11:38:37,263 INFO 10691 [egg-security] use noopen middleware
+2022-05-21 11:38:37,263 INFO 10691 [egg-security] use nosniff middleware
+2022-05-21 11:38:37,264 INFO 10691 [egg-security] use xssProtection middleware
+2022-05-21 11:38:37,264 INFO 10691 [egg-security] use xframe middleware
+2022-05-21 11:38:37,264 INFO 10691 [egg-security] use dta middleware
+2022-05-21 11:38:37,264 INFO 10691 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 11:38:37,268 INFO 10691 [egg:core] dump config after load, 2ms
+2022-05-21 11:38:37,278 INFO 10691 [egg:core] dump config after ready, 2ms
+2022-05-21 11:38:37,279 INFO 10691 [egg-watcher:application] watcher start success
+2022-05-21 11:39:10,669 INFO 10845 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 11:39:10,679 INFO 10845 [egg-multipart] stream mode enable
+2022-05-21 11:39:10,679 INFO 10845 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 11:39:10,716 INFO 10845 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 11:39:10,717 INFO 10845 [egg-security] use methodnoallow middleware
+2022-05-21 11:39:10,717 INFO 10845 [egg-security] use noopen middleware
+2022-05-21 11:39:10,718 INFO 10845 [egg-security] use nosniff middleware
+2022-05-21 11:39:10,718 INFO 10845 [egg-security] use xssProtection middleware
+2022-05-21 11:39:10,718 INFO 10845 [egg-security] use xframe middleware
+2022-05-21 11:39:10,718 INFO 10845 [egg-security] use dta middleware
+2022-05-21 11:39:10,718 INFO 10845 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 11:39:10,723 INFO 10845 [egg:core] dump config after load, 2ms
+2022-05-21 11:39:10,732 INFO 10845 [egg:core] dump config after ready, 2ms
+2022-05-21 11:39:10,734 INFO 10845 [egg-watcher:application] watcher start success
+2022-05-21 11:39:59,673 INFO 11173 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 11:39:59,682 INFO 11173 [egg-multipart] stream mode enable
+2022-05-21 11:39:59,682 INFO 11173 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 11:39:59,718 INFO 11173 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 11:39:59,718 INFO 11173 [egg-security] use methodnoallow middleware
+2022-05-21 11:39:59,718 INFO 11173 [egg-security] use noopen middleware
+2022-05-21 11:39:59,718 INFO 11173 [egg-security] use nosniff middleware
+2022-05-21 11:39:59,718 INFO 11173 [egg-security] use xssProtection middleware
+2022-05-21 11:39:59,719 INFO 11173 [egg-security] use xframe middleware
+2022-05-21 11:39:59,719 INFO 11173 [egg-security] use dta middleware
+2022-05-21 11:39:59,719 INFO 11173 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 11:39:59,724 INFO 11173 [egg:core] dump config after load, 2ms
+2022-05-21 11:39:59,732 INFO 11173 [egg-watcher:application] watcher start success
+2022-05-21 11:39:59,735 INFO 11173 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 11:39:59 GMT+0800 (Singapore Standard Time)
+2022-05-21 11:39:59,738 INFO 11173 [egg:core] dump config after ready, 2ms
+2022-05-21 11:40:33,732 INFO 11200 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 11:40:33,742 INFO 11200 [egg-multipart] stream mode enable
+2022-05-21 11:40:33,742 INFO 11200 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 11:40:33,778 INFO 11200 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 11:40:33,779 INFO 11200 [egg-security] use methodnoallow middleware
+2022-05-21 11:40:33,779 INFO 11200 [egg-security] use noopen middleware
+2022-05-21 11:40:33,779 INFO 11200 [egg-security] use nosniff middleware
+2022-05-21 11:40:33,779 INFO 11200 [egg-security] use xssProtection middleware
+2022-05-21 11:40:33,779 INFO 11200 [egg-security] use xframe middleware
+2022-05-21 11:40:33,780 INFO 11200 [egg-security] use dta middleware
+2022-05-21 11:40:33,780 INFO 11200 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 11:40:33,784 INFO 11200 [egg:core] dump config after load, 2ms
+2022-05-21 11:40:33,790 INFO 11200 [egg-watcher:application] watcher start success
+2022-05-21 11:40:33,792 INFO 11200 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 11:40:33 GMT+0800 (Singapore Standard Time)
+2022-05-21 11:40:33,795 INFO 11200 [egg:core] dump config after ready, 2ms
+2022-05-21 16:25:49,959 INFO 15146 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:25:49,971 INFO 15146 [egg-multipart] stream mode enable
+2022-05-21 16:25:49,971 INFO 15146 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:25:50,021 INFO 15146 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:25:50,022 INFO 15146 [egg-security] use methodnoallow middleware
+2022-05-21 16:25:50,022 INFO 15146 [egg-security] use noopen middleware
+2022-05-21 16:25:50,023 INFO 15146 [egg-security] use nosniff middleware
+2022-05-21 16:25:50,023 INFO 15146 [egg-security] use xssProtection middleware
+2022-05-21 16:25:50,023 INFO 15146 [egg-security] use xframe middleware
+2022-05-21 16:25:50,023 INFO 15146 [egg-security] use dta middleware
+2022-05-21 16:25:50,023 INFO 15146 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:25:50,029 INFO 15146 [egg:core] dump config after load, 2ms
+2022-05-21 16:25:50,038 INFO 15146 [egg-watcher:application] watcher start success
+2022-05-21 16:25:50,038 INFO 15146 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:25:50 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:25:50,042 INFO 15146 [egg:core] dump config after ready, 2ms
+2022-05-21 16:26:03,989 INFO 15182 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:26:03,998 INFO 15182 [egg-multipart] stream mode enable
+2022-05-21 16:26:03,998 INFO 15182 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:26:04,032 INFO 15182 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use methodnoallow middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use noopen middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use nosniff middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use xssProtection middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use xframe middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] use dta middleware
+2022-05-21 16:26:04,033 INFO 15182 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:26:04,038 INFO 15182 [egg:core] dump config after load, 2ms
+2022-05-21 16:26:04,045 INFO 15182 [egg-watcher:application] watcher start success
+2022-05-21 16:26:04,046 INFO 15182 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:26:04 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:26:04,048 INFO 15182 [egg:core] dump config after ready, 2ms
+2022-05-21 16:27:27,113 INFO 15207 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:27:27,122 INFO 15207 [egg-multipart] stream mode enable
+2022-05-21 16:27:27,122 INFO 15207 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:27:27,157 INFO 15207 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use methodnoallow middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use noopen middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use nosniff middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use xssProtection middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use xframe middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] use dta middleware
+2022-05-21 16:27:27,158 INFO 15207 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:27:27,163 INFO 15207 [egg:core] dump config after load, 2ms
+2022-05-21 16:27:27,168 INFO 15207 [egg-watcher:application] watcher start success
+2022-05-21 16:27:27,171 INFO 15207 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:27:27 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:27:27,173 INFO 15207 [egg:core] dump config after ready, 2ms
+2022-05-21 16:27:28,901 INFO 15218 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:27:28,910 INFO 15218 [egg-multipart] stream mode enable
+2022-05-21 16:27:28,910 INFO 15218 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:27:28,943 INFO 15218 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:27:28,944 INFO 15218 [egg-security] use methodnoallow middleware
+2022-05-21 16:27:28,944 INFO 15218 [egg-security] use noopen middleware
+2022-05-21 16:27:28,944 INFO 15218 [egg-security] use nosniff middleware
+2022-05-21 16:27:28,944 INFO 15218 [egg-security] use xssProtection middleware
+2022-05-21 16:27:28,945 INFO 15218 [egg-security] use xframe middleware
+2022-05-21 16:27:28,945 INFO 15218 [egg-security] use dta middleware
+2022-05-21 16:27:28,945 INFO 15218 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:27:28,949 INFO 15218 [egg:core] dump config after load, 2ms
+2022-05-21 16:27:28,955 INFO 15218 [egg-watcher:application] watcher start success
+2022-05-21 16:27:28,957 INFO 15218 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:27:28 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:27:28,960 INFO 15218 [egg:core] dump config after ready, 2ms
+2022-05-21 16:28:14,907 INFO 15236 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:28:14,916 INFO 15236 [egg-multipart] stream mode enable
+2022-05-21 16:28:14,916 INFO 15236 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:28:14,951 INFO 15236 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:28:14,951 INFO 15236 [egg-security] use methodnoallow middleware
+2022-05-21 16:28:14,951 INFO 15236 [egg-security] use noopen middleware
+2022-05-21 16:28:14,952 INFO 15236 [egg-security] use nosniff middleware
+2022-05-21 16:28:14,952 INFO 15236 [egg-security] use xssProtection middleware
+2022-05-21 16:28:14,952 INFO 15236 [egg-security] use xframe middleware
+2022-05-21 16:28:14,952 INFO 15236 [egg-security] use dta middleware
+2022-05-21 16:28:14,952 INFO 15236 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:28:14,957 INFO 15236 [egg:core] dump config after load, 3ms
+2022-05-21 16:28:14,963 INFO 15236 [egg-watcher:application] watcher start success
+2022-05-21 16:28:14,965 INFO 15236 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:28:14 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:28:14,968 INFO 15236 [egg:core] dump config after ready, 2ms
+2022-05-21 16:30:04,126 INFO 15287 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:30:04,135 INFO 15287 [egg-multipart] stream mode enable
+2022-05-21 16:30:04,136 INFO 15287 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:30:04,172 INFO 15287 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:30:04,172 INFO 15287 [egg-security] use methodnoallow middleware
+2022-05-21 16:30:04,172 INFO 15287 [egg-security] use noopen middleware
+2022-05-21 16:30:04,172 INFO 15287 [egg-security] use nosniff middleware
+2022-05-21 16:30:04,173 INFO 15287 [egg-security] use xssProtection middleware
+2022-05-21 16:30:04,173 INFO 15287 [egg-security] use xframe middleware
+2022-05-21 16:30:04,173 INFO 15287 [egg-security] use dta middleware
+2022-05-21 16:30:04,173 INFO 15287 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:30:04,178 INFO 15287 [egg:core] dump config after load, 3ms
+2022-05-21 16:30:04,184 INFO 15287 [egg-watcher:application] watcher start success
+2022-05-21 16:30:04,186 INFO 15287 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:30:04 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:30:04,189 INFO 15287 [egg:core] dump config after ready, 2ms
+2022-05-21 16:30:36,193 INFO 15308 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:30:36,203 INFO 15308 [egg-multipart] stream mode enable
+2022-05-21 16:30:36,203 INFO 15308 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:30:36,237 INFO 15308 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:30:36,238 INFO 15308 [egg-security] use methodnoallow middleware
+2022-05-21 16:30:36,238 INFO 15308 [egg-security] use noopen middleware
+2022-05-21 16:30:36,238 INFO 15308 [egg-security] use nosniff middleware
+2022-05-21 16:30:36,238 INFO 15308 [egg-security] use xssProtection middleware
+2022-05-21 16:30:36,239 INFO 15308 [egg-security] use xframe middleware
+2022-05-21 16:30:36,239 INFO 15308 [egg-security] use dta middleware
+2022-05-21 16:30:36,239 INFO 15308 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:30:36,244 INFO 15308 [egg:core] dump config after load, 3ms
+2022-05-21 16:30:36,250 INFO 15308 [egg-watcher:application] watcher start success
+2022-05-21 16:30:36,253 INFO 15308 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:30:36 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:30:36,256 INFO 15308 [egg:core] dump config after ready, 3ms
+2022-05-21 16:31:00,769 INFO 15318 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:31:00,779 INFO 15318 [egg-multipart] stream mode enable
+2022-05-21 16:31:00,779 INFO 15318 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:31:00,813 INFO 15318 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use methodnoallow middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use noopen middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use nosniff middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use xssProtection middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use xframe middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] use dta middleware
+2022-05-21 16:31:00,814 INFO 15318 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:31:00,819 INFO 15318 [egg:core] dump config after load, 2ms
+2022-05-21 16:31:00,826 INFO 15318 [egg-watcher:application] watcher start success
+2022-05-21 16:31:00,827 INFO 15318 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:31:00 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:31:00,830 INFO 15318 [egg:core] dump config after ready, 2ms
+2022-05-21 16:31:26,023 INFO 15326 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:31:26,032 INFO 15326 [egg-multipart] stream mode enable
+2022-05-21 16:31:26,033 INFO 15326 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:31:26,068 INFO 15326 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use methodnoallow middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use noopen middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use nosniff middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use xssProtection middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use xframe middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] use dta middleware
+2022-05-21 16:31:26,069 INFO 15326 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:31:26,074 INFO 15326 [egg:core] dump config after load, 2ms
+2022-05-21 16:31:26,080 INFO 15326 [egg-watcher:application] watcher start success
+2022-05-21 16:31:26,082 INFO 15326 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:31:26 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:31:26,085 INFO 15326 [egg:core] dump config after ready, 2ms
+2022-05-21 16:31:33,120 INFO 15329 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:31:33,130 INFO 15329 [egg-multipart] stream mode enable
+2022-05-21 16:31:33,130 INFO 15329 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:31:33,169 INFO 15329 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:31:33,169 INFO 15329 [egg-security] use methodnoallow middleware
+2022-05-21 16:31:33,169 INFO 15329 [egg-security] use noopen middleware
+2022-05-21 16:31:33,170 INFO 15329 [egg-security] use nosniff middleware
+2022-05-21 16:31:33,170 INFO 15329 [egg-security] use xssProtection middleware
+2022-05-21 16:31:33,170 INFO 15329 [egg-security] use xframe middleware
+2022-05-21 16:31:33,170 INFO 15329 [egg-security] use dta middleware
+2022-05-21 16:31:33,170 INFO 15329 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:31:33,175 INFO 15329 [egg:core] dump config after load, 2ms
+2022-05-21 16:31:33,181 INFO 15329 [egg-watcher:application] watcher start success
+2022-05-21 16:31:33,184 INFO 15329 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:31:33 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:31:33,187 INFO 15329 [egg:core] dump config after ready, 2ms
+2022-05-21 16:31:55,457 INFO 15374 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:31:55,467 INFO 15374 [egg-multipart] stream mode enable
+2022-05-21 16:31:55,467 INFO 15374 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:31:55,504 INFO 15374 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use methodnoallow middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use noopen middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use nosniff middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use xssProtection middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use xframe middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] use dta middleware
+2022-05-21 16:31:55,505 INFO 15374 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:31:55,510 INFO 15374 [egg:core] dump config after load, 2ms
+2022-05-21 16:31:55,517 INFO 15374 [egg-watcher:application] watcher start success
+2022-05-21 16:31:55,519 INFO 15374 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 21 2022 16:31:55 GMT+0800 (Singapore Standard Time)
+2022-05-21 16:31:55,522 INFO 15374 [egg:core] dump config after ready, 2ms
+2022-05-21 16:33:57,616 INFO 15479 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:33:57,625 INFO 15479 [egg-multipart] stream mode enable
+2022-05-21 16:33:57,625 INFO 15479 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:33:57,660 INFO 15479 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:33:57,661 INFO 15479 [egg-security] use methodnoallow middleware
+2022-05-21 16:33:57,661 INFO 15479 [egg-security] use noopen middleware
+2022-05-21 16:33:57,661 INFO 15479 [egg-security] use nosniff middleware
+2022-05-21 16:33:57,661 INFO 15479 [egg-security] use xssProtection middleware
+2022-05-21 16:33:57,662 INFO 15479 [egg-security] use xframe middleware
+2022-05-21 16:33:57,662 INFO 15479 [egg-security] use dta middleware
+2022-05-21 16:33:57,662 INFO 15479 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:33:57,666 INFO 15479 [egg:core] dump config after load, 2ms
+2022-05-21 16:33:57,676 INFO 15479 [egg:core] dump config after ready, 2ms
+2022-05-21 16:33:57,677 INFO 15479 [egg-watcher:application] watcher start success
+2022-05-21 16:34:26,844 INFO 15723 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:34:26,852 INFO 15723 [egg-multipart] stream mode enable
+2022-05-21 16:34:26,853 INFO 15723 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:34:26,888 INFO 15723 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:34:26,889 INFO 15723 [egg-security] use methodnoallow middleware
+2022-05-21 16:34:26,889 INFO 15723 [egg-security] use noopen middleware
+2022-05-21 16:34:26,889 INFO 15723 [egg-security] use nosniff middleware
+2022-05-21 16:34:26,889 INFO 15723 [egg-security] use xssProtection middleware
+2022-05-21 16:34:26,890 INFO 15723 [egg-security] use xframe middleware
+2022-05-21 16:34:26,890 INFO 15723 [egg-security] use dta middleware
+2022-05-21 16:34:26,890 INFO 15723 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:34:26,894 INFO 15723 [egg:core] dump config after load, 2ms
+2022-05-21 16:34:26,903 INFO 15723 [egg:core] dump config after ready, 1ms
+2022-05-21 16:34:26,904 INFO 15723 [egg-watcher:application] watcher start success
+2022-05-21 16:34:30,658 INFO 15747 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:34:30,667 INFO 15747 [egg-multipart] stream mode enable
+2022-05-21 16:34:30,667 INFO 15747 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:34:30,701 INFO 15747 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:34:30,702 INFO 15747 [egg-security] use methodnoallow middleware
+2022-05-21 16:34:30,702 INFO 15747 [egg-security] use noopen middleware
+2022-05-21 16:34:30,702 INFO 15747 [egg-security] use nosniff middleware
+2022-05-21 16:34:30,702 INFO 15747 [egg-security] use xssProtection middleware
+2022-05-21 16:34:30,702 INFO 15747 [egg-security] use xframe middleware
+2022-05-21 16:34:30,703 INFO 15747 [egg-security] use dta middleware
+2022-05-21 16:34:30,703 INFO 15747 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:34:30,707 INFO 15747 [egg:core] dump config after load, 2ms
+2022-05-21 16:34:30,716 INFO 15747 [egg:core] dump config after ready, 2ms
+2022-05-21 16:34:30,717 INFO 15747 [egg-watcher:application] watcher start success
+2022-05-21 16:36:03,627 INFO 15942 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:36:03,636 INFO 15942 [egg-multipart] stream mode enable
+2022-05-21 16:36:03,636 INFO 15942 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:36:03,669 INFO 15942 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use methodnoallow middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use noopen middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use nosniff middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use xssProtection middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use xframe middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] use dta middleware
+2022-05-21 16:36:03,670 INFO 15942 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:36:03,675 INFO 15942 [egg:core] dump config after load, 2ms
+2022-05-21 16:36:03,684 INFO 15942 [egg:core] dump config after ready, 2ms
+2022-05-21 16:36:03,685 INFO 15942 [egg-watcher:application] watcher start success
+2022-05-21 16:36:15,262 INFO 15979 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:36:15,271 INFO 15979 [egg-multipart] stream mode enable
+2022-05-21 16:36:15,271 INFO 15979 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:36:15,305 INFO 15979 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:36:15,305 INFO 15979 [egg-security] use methodnoallow middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] use noopen middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] use nosniff middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] use xssProtection middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] use xframe middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] use dta middleware
+2022-05-21 16:36:15,306 INFO 15979 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:36:15,310 INFO 15979 [egg:core] dump config after load, 2ms
+2022-05-21 16:36:15,320 INFO 15979 [egg:core] dump config after ready, 2ms
+2022-05-21 16:36:15,320 INFO 15979 [egg-watcher:application] watcher start success
+2022-05-21 16:38:33,288 INFO 16772 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:38:33,297 INFO 16772 [egg-multipart] stream mode enable
+2022-05-21 16:38:33,297 INFO 16772 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:38:33,332 INFO 16772 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:38:33,333 INFO 16772 [egg-security] use methodnoallow middleware
+2022-05-21 16:38:33,333 INFO 16772 [egg-security] use noopen middleware
+2022-05-21 16:38:33,333 INFO 16772 [egg-security] use nosniff middleware
+2022-05-21 16:38:33,333 INFO 16772 [egg-security] use xssProtection middleware
+2022-05-21 16:38:33,333 INFO 16772 [egg-security] use xframe middleware
+2022-05-21 16:38:33,334 INFO 16772 [egg-security] use dta middleware
+2022-05-21 16:38:33,334 INFO 16772 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:38:33,338 INFO 16772 [egg:core] dump config after load, 2ms
+2022-05-21 16:38:33,348 INFO 16772 [egg:core] dump config after ready, 2ms
+2022-05-21 16:38:33,349 INFO 16772 [egg-watcher:application] watcher start success
+2022-05-21 16:43:57,633 INFO 17361 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:43:57,642 INFO 17361 [egg-multipart] stream mode enable
+2022-05-21 16:43:57,642 INFO 17361 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:43:57,676 INFO 17361 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use methodnoallow middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use noopen middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use nosniff middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use xssProtection middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use xframe middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] use dta middleware
+2022-05-21 16:43:57,677 INFO 17361 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:43:57,682 INFO 17361 [egg:core] dump config after load, 2ms
+2022-05-21 16:43:57,691 INFO 17361 [egg:core] dump config after ready, 2ms
+2022-05-21 16:43:57,692 INFO 17361 [egg-watcher:application] watcher start success
+2022-05-21 16:46:37,287 INFO 17450 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:46:37,297 INFO 17450 [egg-multipart] stream mode enable
+2022-05-21 16:46:37,298 INFO 17450 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:46:37,342 INFO 17450 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:46:37,343 INFO 17450 [egg-security] use methodnoallow middleware
+2022-05-21 16:46:37,343 INFO 17450 [egg-security] use noopen middleware
+2022-05-21 16:46:37,343 INFO 17450 [egg-security] use nosniff middleware
+2022-05-21 16:46:37,343 INFO 17450 [egg-security] use xssProtection middleware
+2022-05-21 16:46:37,343 INFO 17450 [egg-security] use xframe middleware
+2022-05-21 16:46:37,344 INFO 17450 [egg-security] use dta middleware
+2022-05-21 16:46:37,344 INFO 17450 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:46:37,349 INFO 17450 [egg:core] dump config after load, 3ms
+2022-05-21 16:46:37,359 INFO 17450 [egg:core] dump config after ready, 2ms
+2022-05-21 16:46:37,360 INFO 17450 [egg-watcher:application] watcher start success
+2022-05-21 16:47:09,518 INFO 17495 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:47:09,528 INFO 17495 [egg-multipart] stream mode enable
+2022-05-21 16:47:09,528 INFO 17495 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:47:09,571 INFO 17495 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:47:09,572 INFO 17495 [egg-security] use methodnoallow middleware
+2022-05-21 16:47:09,572 INFO 17495 [egg-security] use noopen middleware
+2022-05-21 16:47:09,572 INFO 17495 [egg-security] use nosniff middleware
+2022-05-21 16:47:09,573 INFO 17495 [egg-security] use xssProtection middleware
+2022-05-21 16:47:09,573 INFO 17495 [egg-security] use xframe middleware
+2022-05-21 16:47:09,573 INFO 17495 [egg-security] use dta middleware
+2022-05-21 16:47:09,573 INFO 17495 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:47:09,578 INFO 17495 [egg:core] dump config after load, 2ms
+2022-05-21 16:47:09,587 INFO 17495 [egg:core] dump config after ready, 2ms
+2022-05-21 16:47:09,588 INFO 17495 [egg-watcher:application] watcher start success
+2022-05-21 16:48:13,518 INFO 17546 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:48:13,528 INFO 17546 [egg-multipart] stream mode enable
+2022-05-21 16:48:13,528 INFO 17546 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:48:13,571 INFO 17546 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:48:13,572 INFO 17546 [egg-security] use methodnoallow middleware
+2022-05-21 16:48:13,572 INFO 17546 [egg-security] use noopen middleware
+2022-05-21 16:48:13,572 INFO 17546 [egg-security] use nosniff middleware
+2022-05-21 16:48:13,572 INFO 17546 [egg-security] use xssProtection middleware
+2022-05-21 16:48:13,573 INFO 17546 [egg-security] use xframe middleware
+2022-05-21 16:48:13,573 INFO 17546 [egg-security] use dta middleware
+2022-05-21 16:48:13,573 INFO 17546 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:48:13,577 INFO 17546 [egg:core] dump config after load, 2ms
+2022-05-21 16:48:13,587 INFO 17546 [egg:core] dump config after ready, 2ms
+2022-05-21 16:48:13,589 INFO 17546 [egg-watcher:application] watcher start success
+2022-05-21 16:50:00,354 INFO 17620 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:50:00,365 INFO 17620 [egg-multipart] stream mode enable
+2022-05-21 16:50:00,365 INFO 17620 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:50:00,411 INFO 17620 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:50:00,412 INFO 17620 [egg-security] use methodnoallow middleware
+2022-05-21 16:50:00,412 INFO 17620 [egg-security] use noopen middleware
+2022-05-21 16:50:00,412 INFO 17620 [egg-security] use nosniff middleware
+2022-05-21 16:50:00,412 INFO 17620 [egg-security] use xssProtection middleware
+2022-05-21 16:50:00,412 INFO 17620 [egg-security] use xframe middleware
+2022-05-21 16:50:00,413 INFO 17620 [egg-security] use dta middleware
+2022-05-21 16:50:00,413 INFO 17620 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:50:00,418 INFO 17620 [egg:core] dump config after load, 2ms
+2022-05-21 16:50:00,429 INFO 17620 [egg:core] dump config after ready, 2ms
+2022-05-21 16:50:00,430 INFO 17620 [egg-watcher:application] watcher start success
+2022-05-21 16:51:13,502 INFO 17979 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:51:13,511 INFO 17979 [egg-multipart] stream mode enable
+2022-05-21 16:51:13,511 INFO 17979 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:51:13,545 INFO 17979 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:51:13,545 INFO 17979 [egg-security] use methodnoallow middleware
+2022-05-21 16:51:13,545 INFO 17979 [egg-security] use noopen middleware
+2022-05-21 16:51:13,546 INFO 17979 [egg-security] use nosniff middleware
+2022-05-21 16:51:13,546 INFO 17979 [egg-security] use xssProtection middleware
+2022-05-21 16:51:13,546 INFO 17979 [egg-security] use xframe middleware
+2022-05-21 16:51:13,546 INFO 17979 [egg-security] use dta middleware
+2022-05-21 16:51:13,546 INFO 17979 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:51:13,550 INFO 17979 [egg:core] dump config after load, 2ms
+2022-05-21 16:51:13,560 INFO 17979 [egg:core] dump config after ready, 2ms
+2022-05-21 16:51:13,561 INFO 17979 [egg-watcher:application] watcher start success
+2022-05-21 16:52:11,596 INFO 18240 [egg:logger] init all loggers with options: {"dir":"/Users/litian/blog/services/logs/services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-21 16:52:11,605 INFO 18240 [egg-multipart] stream mode enable
+2022-05-21 16:52:11,605 INFO 18240 [egg-mysql] connecting root@localhost:3306/BlogDB
+2022-05-21 16:52:11,640 INFO 18240 [egg-static] starting static serve /public/ -> /Users/litian/blog/services/app/public
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use methodnoallow middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use noopen middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use nosniff middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use xssProtection middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use xframe middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] use dta middleware
+2022-05-21 16:52:11,641 INFO 18240 [egg-security] compose 6 middlewares into one security middleware
+2022-05-21 16:52:11,646 INFO 18240 [egg:core] dump config after load, 3ms
+2022-05-21 16:52:11,655 INFO 18240 [egg:core] dump config after ready, 2ms
+2022-05-21 16:52:11,656 INFO 18240 [egg-watcher:application] watcher start success
