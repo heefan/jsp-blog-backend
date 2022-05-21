@@ -1,10 +1,12 @@
 'use strict';
 
 const Controller = require('egg').Controller;
+class MainController extends Controller {
 
-class HomeController extends Controller {
+  constants = require('../../db_constant');
+
   async index() {
-    const result = await this.app.mysql.get('blog', {});
+    const result = await this.app.mysql.get(this.constants.DB_TABLE_ARTICLE , {});
     console.log(result);
     this.ctx.body = result;
   }
@@ -86,4 +88,4 @@ class HomeController extends Controller {
   }
 }
 
-module.exports = HomeController;
+module.exports = MainController;
