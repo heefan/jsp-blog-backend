@@ -3,3 +3,4 @@ node_modules
 typings
 db_data
 .github
+logs

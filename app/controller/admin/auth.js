@@ -1,13 +1,14 @@
+'use strict';
+
 
 const ELoginSuccess = 'LOGIN SUCCESS';
 const ELoginFailed = 'LOGIN FAILED';
 const EAlreadyLoggedIn = 'YOU ALREADY LOGGED IN';
 const ENotLoggedIn = 'YOU HAVE NOT LOGGED IN';
 
-
 const Controller = require('egg').Controller;
 class AuthController extends Controller {
-  async doLogIn() {
+  async login() {
     const username = this.ctx.request.body.username;
     const password = this.ctx.request.body.password;
     const sql = " SELECT username FROM admin_user WHERE username = '" + username +
@@ -23,7 +24,7 @@ class AuthController extends Controller {
     }
   }
 
-  async doLogOut() {
+  async logout() {
     this.ctx.session.openId = null;
     this.ctx.body = { data: ELoginSuccess };
   }

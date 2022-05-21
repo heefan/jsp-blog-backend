@@ -1,9 +1,5 @@
 'use strict';
 
-/**
- * Admin: Controller: implement the APIs
- */
-
 const ELoginSuccess = 'LOGIN SUCCESS';
 const ELoginFailed = 'LOGIN FAILED';
 const EAlreadyLoggedIn = 'YOU ALREADY LOGGED IN';
@@ -16,41 +12,7 @@ const ARTICLE_TABLE = 'article';
 class MainController extends Controller {
 
   async index() {
-    this.ctx.body = 'hi api';
-  }
-
-  /** *********************************************************
-   *    Authentication API
-   ***********************************************************/
-  async doLogIn() {
-    const username = this.ctx.request.body.username;
-    const password = this.ctx.request.body.password;
-    const sql = " SELECT username FROM admin_user WHERE username = '" + username +
-        "' AND password = '" + password + "'";
-
-    const res = await this.app.mysql.query(sql);
-    if (res.length > 0) {
-      const openId = new Date().getTime();
-      this.ctx.session.openId = { openId };
-      this.ctx.body = { data: ELoginSuccess, openId };
-    } else {
-      this.ctx.body = { data: ELoginFailed };
-    }
-  }
-
-  async doLogOut() {
-    this.ctx.session.openId = null;
-    this.ctx.body = { data: ELoginSuccess };
-  }
-
-  async isLoggedIn() {
-    const cOpenId = this.ctx.request.body.openId;
-    const sOpenId = this.ctx.session.openId.openId;
-    if (sOpenId && cOpenId === sOpenId) {
-      this.ctx.body = { data: EAlreadyLoggedIn };
-    } else {
-      this.ctx.body = { data: ENotLoggedIn };
-    }
+    this.ctx.body = 'API Test';
   }
 
   /** *********************************************************
