@@ -6,19 +6,29 @@ class MainController extends Controller {
   constants = require('../../db_constant');
 
   async index() {
-    const result = await this.app.mysql.get(this.constants.DB_TABLE_ARTICLE , {});
+    const result = await this.app.mysql.get(this.constants.DB_TABLE_ARTICLE);
     console.log(result);
     this.ctx.body = result;
   }
 
   async getArticleList() {
-    const sql = 'SELECT article.id as id,' +
-        'article.title as title,' +
-        'article.brief as brief,' +
-        "FROM_UNIXTIME(article.last_updated,'%H:%i, %m/%d/%Y' ) as last_updated," +
-        'article.view_count as view_count,' +
-        'category.name as category_name ' +
-        'FROM article LEFT JOIN type ON article.category_id = category.id';
+    const id = this.constants.DB_TABLE_ARTICLE + '.id'
+    const title = this.constants.DB_TABLE_ARTICLE + ' .title'
+    const brief = this.constants.DB_TABLE_ARTICLE + ' .brief'
+    const last_updated = this.constants.DB_TABLE_ARTICLE + ' .last_updated'
+    const view_count = this.constants.DB_TABLE_ARTICLE + ' .view_count'
+    const category_name = this.constants.DB_TABLE_ARTICLE + ' .category_name'
+
+
+    const sql = 'SELECT ' + id +  ' as id,'
+        + title + ' as title,'
+        + brief + ' as brief,'
+        + 'FROM_UNIXTIME( ' + last_updated + ",'%H:%i, %m/%d/%Y' ) as last_updated,"
+        + view_count + ' as view_count,'
+        + category_name + ' as category_name '
+        + 'FROM ' + this.constants.DB_TABLE_ARTICLE + ' LEFT JOIN type ON ' + category_name + '=category.id';
+
+    console.log(sql)
 
     const results = await this.app.mysql.query(sql);
 
