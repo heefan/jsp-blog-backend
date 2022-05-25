@@ -11,24 +11,25 @@ class MainController extends Controller {
     this.ctx.body = result;
   }
 
-  async getArticleList() {
+  async list() {
     const id = this.constants.DB_TABLE_ARTICLE + '.id'
-    const title = this.constants.DB_TABLE_ARTICLE + ' .title'
-    const brief = this.constants.DB_TABLE_ARTICLE + ' .brief'
-    const last_updated = this.constants.DB_TABLE_ARTICLE + ' .last_updated'
-    const view_count = this.constants.DB_TABLE_ARTICLE + ' .view_count'
-    const category_name = this.constants.DB_TABLE_ARTICLE + ' .category_name'
+    const title = this.constants.DB_TABLE_ARTICLE + '.title'
+    const brief = this.constants.DB_TABLE_ARTICLE + '.brief'
+    const last_updated = this.constants.DB_TABLE_ARTICLE + '.last_updated'
+    const view_count = this.constants.DB_TABLE_ARTICLE + '.view_count'
+    const category_name = this.constants.DB_TABLE_ARTICLE + '.category_name'
 
-
-    const sql = 'SELECT ' + id +  ' as id,'
-        + title + ' as title,'
-        + brief + ' as brief,'
-        + 'FROM_UNIXTIME( ' + last_updated + ",'%H:%i, %m/%d/%Y' ) as last_updated,"
-        + view_count + ' as view_count,'
+    const sql = 'SELECT ' + id +  ' as id, '
+        + title + ' as title, '
+        + brief + ' as brief, '
+        + 'FROM_UNIXTIME(' + last_updated + ",'%H:%i, %m/%d/%Y') as last_updated, "
+        + view_count + ' as view_count, '
         + category_name + ' as category_name '
-        + 'FROM ' + this.constants.DB_TABLE_ARTICLE + ' LEFT JOIN type ON ' + category_name + '=category.id';
+        + 'FROM ' + this.constants.DB_TABLE_ARTICLE + 'LEFT JOIN type ON ' + category_name + '=category.id';
 
     console.log(sql)
+
+    return
 
     const results = await this.app.mysql.query(sql);
 
@@ -75,8 +76,8 @@ class MainController extends Controller {
   }
 
 
-  async getCategory() {
-    const result = await this.app.mysql.select('category');
+  async category() {
+    const result = await this.app.mysql.select(this.constants.DB_TABLE_CATEGORY);
     this.ctx.body = { data: result };
   }
 
