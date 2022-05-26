@@ -1,9 +1,8 @@
 'use strict';
 
 const Controller = require('egg').Controller;
+const DBConst = require("../../db_constant");
 class MainController extends Controller {
-
-  constants = require('../../db_constant');
 
   async index() {
     const result = await this.app.mysql.get(this.constants.DB_TABLE_ARTICLE);
@@ -12,13 +11,13 @@ class MainController extends Controller {
   }
 
   async articleList() {
-    const sql = 'SELECT ' + this.constants.TB_ARTICLE_ID  + ' as id, '
-        + this.constants.TB_ARTICLE_TITLE + ' as title, '
-        + this.constants.TB_ARTICLE_BRIEF + ' as brief, '
-        + 'FROM_UNIXTIME(' + this.constants.TB_ARTICLE_LAST_UPDATED + ",'%H:%i, %m/%d/%Y') as last_updated, "
-        + this.constants.TB_ARTICLE_VIEW_COUNT + ' as view_count, '
-        + this.constants.TB_ARTICLE_CATEGORY_NAME + ' as category_name '
-        + 'FROM ' + this.constants.DB_TABLE_ARTICLE + ' ORDER BY article.id DESC';
+    const sql = 'SELECT ' + DBConst.TB_ARTICLE.ID  + ' as id, '
+        + DBConst.TB_ARTICLE.TITLE + ' as title, '
+        + DBConst.TB_ARTICLE.BRIEF + ' as brief, '
+        + 'FROM_UNIXTIME(' + DBConst.TB_ARTICLE.LAST_UPDATED + ",'%H:%i, %m/%d/%Y') as last_updated, "
+        + DBConst.TB_ARTICLE.VIEW_COUNT + ' as view_count, '
+        + DBConst.TB_ARTICLE.CATEGORY_NAME + ' as category_name '
+        + 'FROM ' + DBConst.DB.TB_ARTICLE + ' ORDER BY article.id DESC';
 
     const results = await this.app.mysql.query(sql);
 
@@ -70,18 +69,17 @@ class MainController extends Controller {
     this.ctx.body = { data: result };
   }
 
-  async getArticleListByTypeId() {
+  async articleListByCategoryId() {
     const id = this.ctx.params.id;
-    const sql = 'SELECT article.id as id,' +
-        'article.title as title,' +
-        'article.brief as brief,' +
-        'article.content as content,' +
-        "FROM_UNIXTIME(article.last_updated,'%H:%i, %m/%d/%Y' ) as lastUpdated," +
-        'article.view_count as view_count ,' +
-        'category.name as category_name ,' +
-        'category.id as category_id ' +
-        'FROM article LEFT JOIN category ON article.category_id = category.id ' +
-        'WHERE category_id =' + id;
+
+    const sql = 'SELECT ' + DBConst.TB_ARTICLE.ID +  ' as id, '
+        + DBConst.TB_ARTICLE.TITLE + ' as title, '
+        + DBConst.TB_ARTICLE.CONTENT + ' as content, '
+        + 'FROM_UNIXTIME(' + DBConst.TB_ARTICLE.LAST_UPDATED + ",'%H:%i, %m/%d/%Y') as last_updated, "
+        + DBConst.TB_ARTICLE.VIEW_COUNT + ' as view_count, '
+        + DBConst.TB_ARTICLE.CATEGORY_NAME + ' as category_name '
+        + 'FROM ' +  DBConst.DB.TB_ARTICLE  + ' '  //+  ' LEFT JOIN category ON article.category_id = category.id ' +
+        + 'WHERE ' + DBConst.TB_ARTICLE.CATEGORY_ID + '=id';
 
     const results = await this.app.mysql.query(sql);
     this.ctx.body = { data: results };
