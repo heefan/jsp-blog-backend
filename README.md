@@ -1,6 +1,9 @@
 # services
 
 
+Rest endpoint naming convention
+https://blog.dreamfactory.com/best-practices-for-naming-rest-api-endpoints/
+
 
 ## QuickStart
 

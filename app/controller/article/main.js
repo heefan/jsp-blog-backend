@@ -12,22 +12,13 @@ class MainController extends Controller {
   }
 
   async articleList() {
-    const id = this.constants.DB_TABLE_ARTICLE + '.id'
-    const title = this.constants.DB_TABLE_ARTICLE + '.title'
-    const brief = this.constants.DB_TABLE_ARTICLE + '.brief'
-    const last_updated = this.constants.DB_TABLE_ARTICLE + '.last_updated'
-    const view_count = this.constants.DB_TABLE_ARTICLE + '.view_count'
-    const category_name = this.constants.DB_TABLE_ARTICLE + '.category_name'
-    const category_id = this.constants.DB_TABLE_ARTICLE + '.category_id'
-
-    const sql = 'SELECT ' + id + ' as id, '
-        + title + ' as title, '
-        + brief + ' as brief, '
-        + 'FROM_UNIXTIME(' + last_updated + ",'%H:%i, %m/%d/%Y') as last_updated, "
-        + view_count + ' as view_count, '
-        + category_name + ' as category_name '
+    const sql = 'SELECT ' + this.constants.TB_ARTICLE_ID  + ' as id, '
+        + this.constants.TB_ARTICLE_TITLE + ' as title, '
+        + this.constants.TB_ARTICLE_BRIEF + ' as brief, '
+        + 'FROM_UNIXTIME(' + this.constants.TB_ARTICLE_LAST_UPDATED + ",'%H:%i, %m/%d/%Y') as last_updated, "
+        + this.constants.TB_ARTICLE_VIEW_COUNT + ' as view_count, '
+        + this.constants.TB_ARTICLE_CATEGORY_NAME + ' as category_name '
         + 'FROM ' + this.constants.DB_TABLE_ARTICLE + ' ORDER BY article.id DESC';
-        // + 'FROM ' + this.constants.DB_TABLE_ARTICLE + ' LEFT JOIN type ON ' + category_id + '=category_id';
 
     const results = await this.app.mysql.query(sql);
 
