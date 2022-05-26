@@ -26,46 +26,52 @@ class MainController extends Controller {
     };
   }
 
-
-  async getArticleById() {
+  async articleById() {
     const id = this.ctx.params.id;
-
-    if (id) {
-      const sql1 = 'UPDATE article SET view_count = (view_count+1) WHERE id =' + id;
-
-      const updateResult = await this.app.mysql.query(sql1);
-      const updateSuccess = updateResult.affectedRows === 1;
-      if (updateSuccess) {
-        const sql2 = 'SELECT id, category_id, title, content,' +
-            'brief, view_count, episode_count, content_html, brief_html,' +
-            "FROM_UNIXTIME(last_updated,'%dd/%mm/%YY' ) as last_updated " +
-            'FROM article WHERE id=' + id;
-
-        let result2 = await this.app.mysql.query(sql2);
-        result2 = JSON.stringify(result2);
-        result2 = JSON.parse(result2);
-        const categoryId = result2[0].category_id;
-        const sql3 = 'SELECT name FROM category WHERE id=' + categoryId;
-        let result3 = await this.app.mysql.query(sql3);
-
-        // console.log(result3)
-        result3 = JSON.stringify(result3);
-        result3 = JSON.parse(result3);
-        result2[0].name = result3[0].name;
-        this.ctx.body = { data: result2 };
-      } else {
-        console.log('id错误1');
-        this.ctx.body = { data: 'id错误' };
-      }
-    } else {
-      console.log('id错误2');
-      this.ctx.body = { data: 'id错误' };
+    let id_n = Number(id);
+    if (!Number.isInteger(id_n)) {
+      this.ctx.body = {data: 'invalid id'}
+      return
     }
+
+    const viewCountUpdateSql = 'UPDATE ' + DBConst.DB.TB_ARTICLE
+        + ' SET ' +  DBConst.TB_ARTICLE.VIEW_COUNT + '=(' + DBConst.TB_ARTICLE.VIEW_COUNT + '+1) '
+        + 'WHERE ' + DBConst.TB_ARTICLE.ID + '=' + id;
+
+    console.log(viewCountUpdateSql);
+    const updateResult = await this.app.mysql.query(viewCountUpdateSql);
+    const updateSuccess = updateResult.affectedRows === 1;
+
+    if (!updateSuccess) {
+      this.ctx.body = {data: 'update failed'}
+      return
+    }
+
+    const querySql = 'SELECT ' + DBConst.TB_ARTICLE.ID  + ' as id, '
+        + DBConst.TB_ARTICLE.TITLE + ' as title, '
+        + DBConst.TB_ARTICLE.BRIEF + ' as brief, '
+        + DBConst.TB_ARTICLE.CATEGORY_ID + ' as category_id, '
+        + DBConst.TB_ARTICLE.VIEW_COUNT + ' as view_count, '
+        + 'FROM_UNIXTIME(' + DBConst.TB_ARTICLE.LAST_UPDATED + ",'%H:%i, %m/%d/%Y') as last_updated "
+        + 'FROM ' + DBConst.DB.TB_ARTICLE + ' WHERE id=' + id;
+
+    let result = await this.app.mysql.query(querySql);
+    result = JSON.stringify(result);
+    result = JSON.parse(result);
+    const categoryId = result[0].category_id;
+
+    const queryNameSql = 'SELECT name FROM category WHERE id=' + categoryId;
+    let nameRet = await this.app.mysql.query(queryNameSql);
+
+    nameRet = JSON.stringify(nameRet);
+    nameRet = JSON.parse(nameRet);
+    result[0].name = nameRet[0].name;
+    this.ctx.body = { data: result };
   }
 
 
   async category() {
-    const result = await this.app.mysql.select(this.constants.DB_TABLE_CATEGORY);
+    const result = await this.app.mysql.select(DBConst.DB.TB_CATEGORY);
     this.ctx.body = { data: result };
   }
 
