@@ -69,12 +69,6 @@ class MainController extends Controller {
     this.ctx.body = { data: result };
   }
 
-
-  async category() {
-    const result = await this.app.mysql.select(DBConst.DB.TB_CATEGORY);
-    this.ctx.body = { data: result };
-  }
-
   async articleListByCategoryId() {
     const id = this.ctx.params.id;
 

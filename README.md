@@ -9,7 +9,6 @@ https://blog.dreamfactory.com/best-practices-for-naming-rest-api-endpoints/
 
 <!-- add docs here for user -->
 
-see [egg docs][egg] for more detail.
 
 ### Development
 
